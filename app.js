@@ -1,7 +1,3 @@
-const express = require("express");
-const PORT = process.env.PORT || 5000
-const path = require("path");
-
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
